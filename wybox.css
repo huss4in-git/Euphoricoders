@@ -1,0 +1,29 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+#div1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#wybox{
+    font-size: 80px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    letter-spacing: -0.05em;
+    font-weight: 500;
+}
+@media screen and (max-width: 800px){
+    #wybox{
+        font-size: 35px;
+    }
+    #wb{
+        height: 120px;
+        width: 120px;
+    }
+}

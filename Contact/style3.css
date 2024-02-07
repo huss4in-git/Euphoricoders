@@ -1,0 +1,327 @@
+@font-face {
+    font-family: 'Monument Grotesk';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Monument Grotesk'), url('/ABCMonumentGrotesk-Medium.woff2') format('woff');
+    }
+    @font-face {
+        font-family: 'Monument Grotesk Regular';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Monument Grotesk Regular'), url('/ABCMonumentGrotesk-Regular.woff2') format('woff');
+        }
+
+.txt{
+    margin-top: 180px;
+    margin-left: 20px;
+    font-family: "Monument Grotesk";
+    font-size: 1.388889vw;
+    font-weight: 400;
+    line-height: 140%;
+    color: black;
+}
+.cnt{
+    font-family: "Monument Grotesk Medium";
+    font-size: 5.555556vw;
+    font-weight: 500;
+    line-height: 94%;
+    letter-spacing: -0.03em;
+    color: rgb(255, 255, 255);
+}
+#lu{
+    margin-top: 20px;
+    font-family: "Monument Grotesk Medium";
+    font-size: 3vw;
+    font-weight: 500;
+    line-height: 94%;
+    letter-spacing: -0.03em;
+    color: rgb(255, 255, 255);
+}
+.ftco{
+    margin-top: 130px;
+    margin-left: 100px;
+}
+#p2{
+    font-family: "Monument Grotesk Regular";
+    color:hsla(0,0%,78%,.6)
+}
+.overlayText{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    z-index: 1;
+}
+
+@media screen and (max-width: 800px)
+{
+    .cnt{
+        font-size: 80px;
+        margin-left: -10px;
+        margin-bottom: 700px;
+        margin-top: -70px;
+    }
+    #lu{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #p2{
+        font-size: 15px;
+        line-height: 10px;
+    }
+    .ftco{
+      margin-top: 240px;
+      margin-left:-300px;
+    }
+}
+
+
+@font-face {
+    font-family: 'Monument Grotesk Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Monument Grotesk'), url('/ABCMonumentGrotesk-Medium.woff2') format('woff');
+    }
+    @font-face {
+        font-family: 'Monument Grotesk';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Monument Grotesk'), url('/ABCMonumentGrotesk-Regular.woff2') format('woff');
+    }
+
+    .Chip_container__YqVlc{
+        position:relative;
+        display:inline-block;
+        padding:.25rem 1rem .25rem 2rem;
+        background-color:hsla(0,0%,78%,.1);
+        border-radius:6.25rem
+    }
+    .Chip_container__YqVlc:before{
+        content:"";
+        display:block;
+        position:absolute;
+        top:50%;
+        left:1rem;
+        width:.375rem;
+        height:.375rem;
+        margin-top:-.1875rem;
+        border-radius:50%;
+        background-color:#fff;
+        transition:transform 225ms cubic-bezier(.4,0,.2,1) 225ms
+    }
+    .Chip_container__YqVlc:hover:before{
+        transform:scale(1.5);
+        transition:transform 225ms cubic-bezier(.4,0,.2,1) 225ms
+    }
+    .Chip_container__YqVlc .Chip_text__IeUgO{
+        font-size:1rem!important
+    }
+    @keyframes Blob_noise__2Lq9E{
+        0%{
+            background-position:0 0
+        }
+        10%{
+            background-position:-5% -5%
+        }
+        20%{
+            background-position:-10% 5%
+        }
+        30%{
+            background-position:5% -10%
+        }
+        40%{
+            background-position:-5% 15%
+        }
+        50%{
+            background-position:-10% 5%
+        }
+        60%{
+            background-position:15% 0
+        }
+        70%{
+            background-position:0 10%
+        }
+        80%{
+            background-position:-15% 0
+        }
+        90%{
+            background-position:10% 5%
+        }
+        to{
+            background-position:5% 0
+        }
+    }
+    @keyframes Blob_animate-blob__1_8L6{
+        0%{
+            rotate:0deg
+        }
+        25%{
+            scale:1.5 1.5
+        }
+        50%{
+            scale:2 2.5
+        }
+        75%{
+            scale:1.5 1.5
+        }
+        to{
+            rotate:1turn
+        }
+    }
+    @keyframes Blob_animate-blob-reverse__49E9J{
+        0%{
+            rotate:1turn
+        }
+        25%{
+            scale:2.5 2.5
+        }
+        50%{
+            scale:1 1.5
+        }
+        75%{
+            scale:2.5 2.5
+        }
+        to{rotate:0deg
+        }
+    }
+    @keyframes Blob_animate-blob-mobile__pK5bX{
+        0%{
+            rotate:0deg;scale:.5
+        }
+            25%{
+                scale:1}
+                50%{
+                    scale:1.5
+                }
+                75%{
+                    scale:1
+                }
+                to{
+                    rotate:1turn;scale:.5
+                }
+            }
+            .Blob_container__nNBtO,.Blob_container__nNBtO:before{
+                position:absolute;
+                width:100%;
+                height:100%
+            }
+                .Blob_container__nNBtO:before{
+                    content:"";
+                    z-index:1;
+                    background:radial-gradient(75% 50% at 50% 50%,rgba(2,1,2,0) 0,#020102 100%)
+                }
+                @media screen and (max-width:768px){
+                    .Blob_container__nNBtO:before{display:none
+                    }
+                }
+                .Blob_container__nNBtO:after{
+                    content:"";
+                    position:absolute;
+                    height:100%;
+                    width:100%;
+                    -webkit-backdrop-filter:blur(2.5rem);
+                    backdrop-filter:blur(2.5rem)
+                }
+                .Blob_container__nNBtO .Blob_blob__7nPI9{
+                    aspect-ratio:1;
+                    position:absolute;
+                    left:50%;
+                    top:50%;
+                    translate:-50% -50%;
+                    border-radius:50%;
+                    animation:Blob_animate-blob__1_8L6 5s infinite;
+                    opacity:.8;
+                    filter:blur(2.5rem);
+                    width:25%;
+                    height:25%
+                }
+                .Blob_container__nNBtO .Blob_blob__7nPI9:first-child{
+                    background:radial-gradient(ellipse at 50% 50%,hsla(0,0%,100%,.2) 0,hsla(0,0%,100%,0) 100%),radial-gradient(ellipse at 70% 60%,#b04bff 0,rgba(195,224,96,0) 90%),radial-gradient(ellipse at 30% 30%,#b04bff 0,rgba(195,224,96,0) 60%),radial-gradient(ellipse at bottom left,#00a3cb 0,rgba(0,163,203,0) 70%),linear-gradient(135deg,rgba(18,46,119,0),rgba(18,46,119,0) 75%,#122e77),linear-gradient(90deg,#625793 0,#d55d64 35%,#e49129 65%,#c0671c);top:45%;left:45%
+                }
+                .Blob_container__nNBtO .Blob_blob__7nPI9:nth-child(2){background:radial-gradient(ellipse at 50% 50%,hsla(0,0%,100%,.2) 0,hsla(0,0%,100%,0) 100%),radial-gradient(ellipse at 70% 60%,#d0bfff 0,rgba(195,224,96,0) 90%),radial-gradient(ellipse at 30% 30%,#d0bfff 0,rgba(195,224,96,0) 60%),radial-gradient(ellipse at bottom left,#00a3cb 0,rgba(0,163,203,0) 70%),linear-gradient(135deg,rgba(18,46,119,0),rgba(18,46,119,0) 75%,#122e77),linear-gradient(90deg,#625793 0,#d55d64 35%,#e49129 65%,#c0671c);
+                    animation-name:Blob_animate-blob-reverse__49E9J;
+                    top:45%;
+                    left:55%
+                }
+                .Blob_container__nNBtO .Blob_blob__7nPI9:nth-child(3){
+                    background:radial-gradient(ellipse at 50% 50%,hsla(0,0%,100%,.2) 0,hsla(0,0%,100%,0) 100%),radial-gradient(ellipse at 70% 60%,#bff4ff 0,rgba(195,224,96,0) 90%),radial-gradient(ellipse at 30% 30%,#bff4ff 0,rgba(195,224,96,0) 60%),radial-gradient(ellipse at bottom left,#00a3cb 0,rgba(0,163,203,0) 70%),linear-gradient(135deg,rgba(18,46,119,0),rgba(18,46,119,0) 75%,#122e77),linear-gradient(90deg,#625793 0,#d55d64 35%,#e49129 65%,#c0671c);
+                    top:55%;
+                    left:55%
+                }
+                .Blob_container__nNBtO .Blob_blob__7nPI9:nth-child(4){
+                    animation-name:Blob_animate-blob-reverse__49E9J;
+                    top:55%;
+                    left:45%
+                }
+                .Blob_container__nNBtO .Blob_blob__7nPI9:nth-child(4).Blob_Discovery__dSA7C{
+                    background:radial-gradient(ellipse at 50% 50%,hsla(0,0%,100%,.2) 0,hsla(0,0%,100%,0) 100%),radial-gradient(ellipse at 70% 60%,#c3e060 0,rgba(195,224,96,0) 90%),radial-gradient(ellipse at 30% 30%,#c3e060 0,rgba(195,224,96,0) 60%),radial-gradient(ellipse at bottom left,#00a3cb 0,rgba(0,163,203,0) 70%),linear-gradient(135deg,rgba(18,46,119,0),rgba(18,46,119,0) 75%,#122e77),linear-gradient(90deg,#625793 0,#d55d64 35%,#e49129 65%,#c0671c)
+                }
+                .Blob_container__nNBtO .Blob_blob__7nPI9:nth-child(4).Blob_Design__G0_SZ{
+                    background:radial-gradient(ellipse at 50% 50%,hsla(0,0%,100%,.2) 0,hsla(0,0%,100%,0) 100%),radial-gradient(ellipse at 70% 60%,#ff5e5e 0,rgba(195,224,96,0) 90%),radial-gradient(ellipse at 30% 30%,#ff5e5e 0,rgba(195,224,96,0) 60%),radial-gradient(ellipse at bottom left,#00a3cb 0,rgba(0,163,203,0) 70%),linear-gradient(135deg,rgba(18,46,119,0),rgba(18,46,119,0) 75%,#122e77),linear-gradient(90deg,#625793 0,#d55d64 35%,#e49129 65%,#c0671c)
+                }
+                .Blob_container__nNBtO .Blob_blob__7nPI9:nth-child(4).Blob_Development__9igIC{
+                    background:radial-gradient(ellipse at 50% 50%,hsla(0,0%,100%,.2) 0,hsla(0,0%,100%,0) 100%),radial-gradient(ellipse at 70% 60%,#6c38ff 0,rgba(195,224,96,0) 90%),radial-gradient(ellipse at 30% 30%,#6c38ff 0,rgba(195,224,96,0) 60%),radial-gradient(ellipse at bottom left,#00a3cb 0,rgba(0,163,203,0) 70%),linear-gradient(135deg,rgba(18,46,119,0),rgba(18,46,119,0) 75%,#122e77),linear-gradient(90deg,#625793 0,#d55d64 35%,#e49129 65%,#c0671c)
+                }
+                .Blob_container__nNBtO .Blob_blob__7nPI9:nth-child(4).Blob_Delivery__2hhkS{
+                    background:radial-gradient(ellipse at 50% 50%,hsla(0,0%,100%,.2) 0,hsla(0,0%,100%,0) 100%),radial-gradient(ellipse at 70% 60%,#2cc0ff 0,rgba(195,224,96,0) 90%),radial-gradient(ellipse at 30% 30%,#2cc0ff 0,rgba(195,224,96,0) 60%),radial-gradient(ellipse at bottom left,#00a3cb 0,rgba(0,163,203,0) 70%),linear-gradient(135deg,rgba(18,46,119,0),rgba(18,46,119,0) 75%,#122e77),linear-gradient(90deg,#625793 0,#d55d64 35%,#e49129 65%,#c0671c)
+                }
+                .MagnetButton_button__qdQOj{
+                    position:absolute;
+                    top:2.5555555556vw;
+                    right:2.25vw;
+                    display:inline-flex;
+                    align-items:center;
+                    justify-content:center;
+                    background-color:hsla(0,0%,78%,.08);
+                    -webkit-backdrop-filter:blur(.25rem);
+                    backdrop-filter:blur(.25rem);
+                    min-width:4rem;
+                    min-height:4rem;
+                    width:5.5555555556vw;
+                    height:5.5555555556vw;
+                    border-radius:50%;
+                    border:none;
+                    outline:none;
+                    overflow:hidden;
+                    transition:transform 225ms
+                }
+                .MagnetButton_button__qdQOj .MagnetButton_bar__oaUDZ{
+                    position:absolute;
+                    display:block;
+                    width:1.5rem;
+                    height:.125rem;
+                    background-color:#fff
+                }
+                .MagnetButton_button__qdQOj .MagnetButton_bar__oaUDZ:first-child{
+                    transform:rotate(45deg) scaleX(1)
+                }
+                .MagnetButton_button__qdQOj .MagnetButton_bar__oaUDZ:last-child{
+                    transform:rotate(-45deg) scaleX(1)
+                }
+                .MagnetButton_button__qdQOj:before{
+                    content:"";
+                    width:0;
+                    height:0;
+                    border-radius:50%;
+                    position:absolute;
+                    top:var(--y);
+                    left:var(--x);
+                    transform:translate(-50%,-50%);
+                    transition:width .75s,height .75s;background-color:#fff
+                }
+                .MagnetButton_button__qdQOj:hover{
+                    background-color: white;
+                    transition: 0.6s;
+                    cursor:pointer
+                }
+                .MagnetButton_button__qdQOj:hover:before{
+                    width:25rem;
+                    height:25rem
+                }
+                .MagnetButton_button__qdQOj:hover .MagnetButton_bar__oaUDZ{
+                    background-color:#020102
+                }
+                @media screen and (max-width:768px){
+                    .MagnetButton_button__qdQOj:hover{
+                        background-color:#fff
+                    }
+                }
